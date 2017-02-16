@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import ( 
+	"fmt"
+	"github.com/grafinite/stringutil"
+)
 
 func main() {
-fmt.Printf("Hello from Grafinite.\n")
+	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
 }
